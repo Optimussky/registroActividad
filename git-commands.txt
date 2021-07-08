@@ -1,0 +1,42 @@
+Basic commands
+
+git init
+git add(file)
+git status
+git commit
+git push
+git pull
+git clone
+
+
+En GIT hay 3 estados: 
+Working directory: Que es el área de trabajo con todos mis archivos
+Staging area:  Es el area donde vamos a pasar los archivos antes de mandarlos al repositorio en GIT
+Repository: Cuando ya esta decidido qué archivos se van a subir, se envían al repository
+
+
+En working directory usamos "git add"
+
+En staging area usamos "git commit" a repository
+
+comandos:
+
+git init.- Es decirle a git que vamos a empezar un proyecto en git
+git add.- Es para pasar los archivos del working directory al staging area
+git status.- Es para ver qué estatus se encuentran los archivos, ya sea en working directory o en staging area
+git commit.- Es para pasar los archivos del staging area al repository( crear un primer snapshot)
+git push.- Es para subirlo a un servidor remoto(subirlo a un servidor para produccion)
+git pull.- Trae los cambios subidos( y en caso de colaborar, trae los cambios de todos los del proyecto)
+git clone.- Hace una copia del servidor central al pc donde estamos trabajando
+
+
+
+INICIAR un proyecto con GIT
+
+Dentro de la linea de comandos en el directorio del proyecto usamos el comando:
+    git init
+#Debe crear un directorio oculto para verlo usamos ls -a y veremos el dir .git
+
+Visualizar los archivos que tenemos en el staging area usamos el comando:
+    git status
+    
